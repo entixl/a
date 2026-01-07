@@ -21,3 +21,25 @@ Select all samples that belong to the species Iris-virginica.
 Using loc, extract rows 20 to 30 and columns petal_length and petal_width.
 Filter rows where petal_length is greater than 5.0.
 Filter rows where sepal_width is less than 3.0.
+petal_width.
+Filter rows where petal_length is greater than 5.0.
+Filter rows where sepal_width is less than 3.0.
+Apply multiple conditions:
+sepal_length > 6.0 AND petal_width > 2.0
+Count how many samples satisfy the above condition.
+Sort the dataset by sepal_length in ascending order.
+Sort the dataset by petal_width in descending order.
+Display the top 5 rows after sorting by petal_length.
+Group the dataset by species.
+Compute the mean of all numerical features for each species.
+Compute the maximum petal length for each species.
+Find which species has the largest average sepal length.
+Create a new column sepal_area = sepal_length × sepal_width.
+Use apply() to convert all column names to uppercase.
+Use applymap() to calculate the length of each numeric value (after converting to string).
+Round all numerical values to 2 decimal places.
+Rename column sepal_length to SL.
+Drop the column sepal_area.
+Make a copy of the dataset.
+Reset the index of the DataFrame.
+Check for duplicate rows in the dataset.
